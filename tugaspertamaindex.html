@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Saya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+    }
+    .hero {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .hero img {
+      width: 600px;
+      height: 400px;
+      background-color: #ccc;
+    }
+    .biodata {
+      padding: 20px;
+    }
+    .biodata h2 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #aaa;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    .portfolio {
+      padding: 20px;
+    }
+    .portfolio h2 {
+      text-align: center;
+    }
+    .projects {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .project {
+      width: 350px;
+      height: 200px;
+      background-color: #ddd;
+      text-align: center;
+      padding-top: 80px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Section 1: Menu -->
+  <header>
+    <div><strong>Brand</strong></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Biodata</a>
+      <a href="#">Portofolio</a>
+    </nav>
+  </header>
+
+  <!-- Section 2: Judul dan Gambar -->
+  <section class="hero">
+    <div>
+      <h2>Selamat Datang di Biodota saya</h2>
+      <p>Berikut adalah biodata saya. Tentunya dengan ini kita bisa berkenalan yahh... hehe.</p>
+    </div>
+    <img alt="gambar 600x400">
+  </section>
+
+  <!-- Section 3: Biodata -->
+  <section class="biodata">
+    <h2>Tentang saya</h2>
+    <p style="text-align:center;">A short introduction about myself</p>
+    <table>
+      <tr>
+        <th>Nama</th>
+        <th>Pendidikan</th>
+        <th>Pekerjaan</th>
+        <th>Kontak</th>
+        <th>Alamat</th>
+        <th>Umur</th>
+      </tr>
+      <tr>
+        <td>Abdi Amiruddin</td>
+        <td>UNM</td>
+        <td>Mahasiswa</td>
+        <td>08123456789</td>
+        <td>Makassar</td>
+        <td>21</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Section 4: Portofolio -->
+  <section class="portfolio">
+    <h2>Portofolio</h2>
+    <div class="projects">
+      <div class="project">Proyek 1<br>Deskripsi proyek 1</div>
+      <div class="project">Proyek 2<br>Deskripsi proyek 2</div>
+      <div class="project">Proyek 3<br>Deskripsi proyek 3</div>
+    </div>
+  </section>
+
+</body>
+</html>
